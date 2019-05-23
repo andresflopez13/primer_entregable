@@ -1,20 +1,20 @@
 const cursos = require('./ver_cursos');
-const opciones = require('./info_user')
+//onst opciones = require('./info_user')
 const fs = require('fs');
-/*const opciones = {
+const opciones = {
     id: {
         demand: true,
-        alias: 'id'
+        alias: 'i'
     },
     nombre_aspirante: {
         demand: true,
-        alias: 'name'
+        alias: 'n'
     },
     cedula: {
         demand: true,
         alias: 'c'
     }
-}*/
+}
 const argv = require('yargs')
     .command('inscribir', 'inscribir aspirante a uno de los cursos', opciones)
     .argv
@@ -23,9 +23,7 @@ const argv = require('yargs')
 
 let comand = argv._[0];
 
-function ms(cursos, horas, valor) {
-    return `${cursos} tiene una duración de ${horas} horas y su valor de matrícula es ${valor} pesos`;
-}
+console.log('El comando ingresado es: ' + argv.c);
 
 switch (comand) {
     case 'inscribir':
