@@ -5,7 +5,7 @@ function imprimir_cursos() {
     console.log('Los cursos actuales son: ');
     console.log('-------------------------------------------------------------------------------');
     for (let index = 0; index < ver_cursos.cursos.length; index++) {
-        setTimeout(informacion, 2000, index);   
+        setTimeout(informacion, 2000*index+1, index);   
     }
 }
 
