@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+El nombre del estudiante es: Andres
+número de cédula: 123
+se ha matriculado en el curso llamado: Node JS
+con un costo de: 1600000
+y una duraciòn de: 150 horas
+-------------------------------------------------------------------------------

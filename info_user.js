@@ -1,11 +1,11 @@
 const opciones = {
     id: {
         demand: true,
-        alias: 'id'
+        alias: 'i'
     },
     nombre_aspirante: {
         demand: true,
-        alias: 'name'
+        alias: 'n'
     },
     cedula: {
         demand: true,
